@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{ce83a30a-06fa-4dd3-a313-8b93156b911e}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\button.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\catch_event.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\checkbox.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\collapsible.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\component.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\component_fuzzer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\container.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\dropdown.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\event.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\input.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\maybe.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\menu.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\radiobox.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\renderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\resizable_split.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\screen_interactive.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\slider.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\terminal_input_parser.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\component\toggle.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\blink.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\bold.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\border.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\box_helper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\canvas.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\clear_under.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\color_dom.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\composite_decorator.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\dbox.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\dim.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\flex.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\flexbox.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\flexbox_config.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\flexbox_helper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\focus.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\frame.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\gauge.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\graph.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\gridbox.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\hbox.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\inverted.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\node.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\node_decorator.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\paragraph.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\reflect.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\scroll_indicator.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\separator.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\size.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\spinner.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\table.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\text.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\underlined.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\util.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\dom\vbox.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\screen\box.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\screen\color.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\screen\color_info.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\screen\screen.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\screen\string.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\screen\terminal.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ftxui\screen\wcwidth.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\component\captured_mouse.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\component\component.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\component\component_base.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\component\component_options.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\component\deprecated_comp.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\component\event.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\component\mouse.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\component\receiver.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\component\screen_interactive.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\component\terminal_input_parser.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\dom\box_helper.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\dom\canvas.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\dom\deprecated_dom.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\dom\elements.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\dom\flexbox_config.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\dom\flexbox_helper.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\dom\node.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\dom\node_decorator.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\dom\requirement.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\dom\table.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\dom\take_any_args.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\screen\box.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\screen\color.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\screen\color_info.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\screen\deprecated_scr.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\screen\screen.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\screen\string.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\screen\terminal.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\screen\util.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\util\autoreset.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ftxui\util\ref.hpp" />
+  </ItemGroup>
+</Project>
