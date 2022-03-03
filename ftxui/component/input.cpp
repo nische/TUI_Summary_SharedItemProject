@@ -10,7 +10,7 @@
 #include "ftxui/component/component.hpp"          // for Make, Input
 #include "ftxui/component/component_base.hpp"     // for ComponentBase
 #include "ftxui/component/component_options.hpp"  // for InputOption
-#include "ftxui/component/deprecated.hpp"         // for Input
+#include "ftxui/component/deprecated_comp.hpp"         // for Input
 #include "ftxui/component/event.hpp"  // for Event, Event::ArrowLeft, Event::ArrowRight, Event::Backspace, Event::Custom, Event::Delete, Event::End, Event::Home, Event::Return
 #include "ftxui/component/mouse.hpp"  // for Mouse, Mouse::Left, Mouse::Pressed
 #include "ftxui/component/screen_interactive.hpp"  // for Component

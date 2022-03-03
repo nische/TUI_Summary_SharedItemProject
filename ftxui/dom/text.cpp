@@ -3,7 +3,7 @@
 #include <string>     // for string, wstring
 #include <vector>     // for vector
 
-#include "ftxui/dom/deprecated.hpp"   // for text, vtext
+#include "ftxui/dom/deprecated_dom.hpp"   // for text, vtext
 #include "ftxui/dom/elements.hpp"     // for Element, text, vtext
 #include "ftxui/dom/node.hpp"         // for Node
 #include "ftxui/dom/requirement.hpp"  // for Requirement

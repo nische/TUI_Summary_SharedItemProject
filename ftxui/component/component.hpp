@@ -73,7 +73,7 @@ Component Collapsible(ConstStringRef label,
 }  // namespace ftxui
 
 // Include component using the old deprecated wstring.
-#include "ftxui/component/deprecated.hpp"
+#include "ftxui/component/deprecated_comp.hpp"
 
 #endif /* end of include guard: FTXUI_COMPONENT_HPP */
 

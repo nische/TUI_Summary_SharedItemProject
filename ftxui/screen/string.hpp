@@ -31,8 +31,7 @@ int GlyphCount(const std::string& input);
 std::vector<int> CellToGlyphIndex(const std::string& input);
 
 }  // namespace ftxui
-
-#include "ftxui/screen/deprecated.hpp"
+#include "ftxui/screen/deprecated_scr.hpp"
 
 #endif /* end of include guard: FTXUI_SCREEN_STRING_HPP */
 

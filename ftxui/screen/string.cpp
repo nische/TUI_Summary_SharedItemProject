@@ -13,7 +13,7 @@
 #include <locale>    // for wstring_convert
 #include <string>    // for string, basic_string, wstring, allocator
 
-#include "ftxui/screen/deprecated.hpp"  // for wchar_width, wstring_width
+#include "ftxui/screen/deprecated_scr.hpp"  // for wchar_width, wstring_width
 
 namespace {
 

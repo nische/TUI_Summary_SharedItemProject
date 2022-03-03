@@ -146,7 +146,7 @@ Dimensions Fit(Element&);
 #include "ftxui/dom/take_any_args.hpp"
 
 // Include old definitions using wstring.
-#include "ftxui/dom/deprecated.hpp"
+#include "ftxui/dom/deprecated_dom.hpp"
 #endif /* end of include guard: FTXUI_DOM_ELEMENTS_HPP */
 
 // Copyright 2020 Arthur Sonzogni. All rights reserved.
